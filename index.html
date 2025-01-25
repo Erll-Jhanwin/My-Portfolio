@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Get in Touch</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <!-- navigation -->
@@ -37,15 +38,15 @@
     <div class="main">
         <div class="main_content">
             <div class="image">
-                <img src="src/myimage.jpg" alt="" class="img_myimage">
+                <img src="src/myimage.jpg" alt="" data-aos="fade-right" data-aos-duration="1000" class="img_myimage">
             </div>
 
             <div class="text_content">
                 <div>
-                    <h4 class="h5_title text_margin">WEB DEVELOPER || PROGRAMMER</h4>
-                    <h1 class="h1_tagline text_margin">Crafting Responsive Websites That Deliver Seamless Digital Experiences.</h1>
-                    <p class="text_margin">I design responsive, visually stunning websites that deliver clean code, modern design, and exceptional user experiences to elevate your online presence.</p>
-                    <button class="btn_work">View my Work</button>
+                    <h4 class="h5_title text_margin" data-aos="fade-left" data-aos-delay="50" data-aos-duration="1000">WEB DEVELOPER || PROGRAMMER</h4>
+                    <h1 class="h1_tagline text_margin" data-aos="fade-left" data-aos-delay="100" data-aos-duration="1000">Crafting Responsive Websites That Deliver Seamless Digital Experiences.</h1>
+                    <p class="text_margin" data-aos="fade-left" data-aos-delay="150" data-aos-duration="1000">I design responsive, visually stunning websites that deliver clean code, modern design, and exceptional user experiences to elevate your online presence.</p>
+                    <button class="btn_work" data-aos="fade-left" data-aos-delay="200" data-aos-duration="1000">View my Work</button>
                 </div>
             </div>
         </div>
@@ -63,5 +64,9 @@
 
 
     <script src="index.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
