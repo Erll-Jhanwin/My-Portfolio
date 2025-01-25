@@ -32,6 +32,7 @@ a:hover{
 header{
     position: relative;
     padding: 0 2rem;
+    background-color: whitesmoke;
 }
 
 .navbar{
@@ -129,4 +130,69 @@ header{
     .dropdown_menu{
         display: block;
     }
+}
+
+/* homepage */
+/* .main{
+    height: 100vh;
+} */
+/* image part */
+
+.main_content{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;  /* Horizontally center the child */
+    align-items: center;      /* Vertically center the child */
+    height: 100%; 
+}
+
+.image{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_myimage{
+    height: auto;
+    width: 60%;
+    border-radius: 30px;
+}
+
+/* text, buttons part */
+
+.text_content{
+    padding: 2rem;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.text_content h1{
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.text_margin{
+    margin-bottom: 1rem;
+}
+
+.btn_work{
+    background-color: green;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    cursor:pointer;
+    transition:scale 0.2s ease;
+}
+
+/* about me */
+.about_me{
+    background: #09122C;
+    height: 60vh;
 }
