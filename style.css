@@ -6,7 +6,12 @@
     box-sizing: border-box;
     font-family: "Outfit", serif;
     scroll-behavior: smooth;
+  
 }
+
+.example::-webkit-scrollbar {
+    display: none;
+  }
 
 body{
     height: 100vh;
@@ -338,6 +343,11 @@ header{
     background-color: whitesmoke;
     margin-top: 20px;
     border-radius: 10px;
+}
+
+.tech_icon > i{
+    transform: scale(1.6);
+    margin-right: 10px;
 }
 
 /* project responsive */
