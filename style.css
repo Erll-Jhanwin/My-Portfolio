@@ -376,4 +376,17 @@ header{
 
 
 
+.content_footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.soc_icon > a > i{
+    transform: scale(2.4);
+    padding: 20px;
+}
+
+
+
 
