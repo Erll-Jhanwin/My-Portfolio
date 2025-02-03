@@ -375,17 +375,53 @@ header{
 }
 
 
+/* footer */
 
-.content_footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
+
 
 .soc_icon > a > i{
     transform: scale(2.4);
     padding: 20px;
 }
+
+.footer_text{
+    padding: 20px;
+    text-align: center;
+}
+
+.content2{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.flex_footer{
+    margin-left:75px;
+    margin-right: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex_footer > div{
+    width: 50%;
+}
+
+@media (max-width: 992px){
+    .flex_footer{
+        display: block;
+    }
+
+    .flex_footer > div{
+        width: 100%;
+    }
+
+    footer{
+        text-align: center;
+    }
+}
+
+
 
 
 
